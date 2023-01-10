@@ -1,0 +1,13 @@
+prefix=/Users/kautz/opt/anaconda3/envs/rantanplan
+exec_prefix=/Users/kautz/opt/anaconda3/envs/rantanplan
+libdir=/Users/kautz/opt/anaconda3/envs/rantanplan/lib
+sharedlibdir=/Users/kautz/opt/anaconda3/envs/rantanplan/lib
+includedir=/Users/kautz/opt/anaconda3/envs/rantanplan/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
